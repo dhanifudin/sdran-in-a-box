@@ -114,6 +114,7 @@ config:
           enable_ue_ip_alloc: false
           ue_ip_pool: 172.250.0.0/16 # if we use RiaB, Makefile script will override this value with the value defined in MakefileVar.mk file.
   mme:
+    address: 192.168.10.21
     cfgFiles:
       config.json:
         mme:
@@ -158,7 +159,7 @@ config:
       s1mme:
         interface: eno1 # if we use RiaB, Makefile script will automatically apply appropriate interface name
       s1u:
-        interface: enb
+        interface: eth1
   oai-enb-du:
     mode: nfapi #or local_L1 for USRP and BasicSim
     networks:
