@@ -437,9 +437,9 @@ images:
     bess: docker.io/onosproject/riab-bess-upf:master-635b4d4
     pfcpiface: docker.io/onosproject/riab-pfcpiface:master-635b4d4
 # For OAI
-#    oaicucp: docker.io/onosproject/oai-enb-cu:latest
-#    oaidu: docker.io/onosproject/oai-enb-du:latest
-#    oaiue: docker.io/onosproject/oai-ue:latest
+    oaicucp: docker.io/onosproject/oai-enb-cu:v0.1.11
+    oaidu: docker.io/onosproject/oai-enb-du:v0.1.11
+    oaiue: docker.io/onosproject/oai-ue:v0.1.11
 
 # For SD-RAN Umbrella chart:
 # ONOS-KPIMON xAPP and ONOS-UENIB are imported in the RiaB by default
