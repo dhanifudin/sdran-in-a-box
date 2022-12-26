@@ -91,13 +91,13 @@ config:
   upf:
     privileged: true
     enb:
-      subnet: 192.168.251.0/24
+      subnet: 192.168.11.8/29
     access:
-      gateway: 192.168.252.1
-      ip: 192.168.252.3/24
+      gateway: 192.168.11.17
+      ip: 192.168.11.19/29
     core:
-      gateway: 192.168.250.1
-      ip: 192.168.250.3/24
+      gateway: 192.168.11.1
+      ip: 192.168.11.3/29
     name: "oaisim"
     sriov:
       enabled: false
